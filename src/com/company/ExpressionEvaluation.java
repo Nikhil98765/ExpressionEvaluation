@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class ExpressionEvaluation {
 
-    ArrayList<Object> tokens = new ArrayList<>();
+    ArrayList<Object> tokens;
     Stack<Operand> operands = new Stack<>();
     String result;
 
@@ -15,7 +15,7 @@ public class ExpressionEvaluation {
 
     public String evaluate(){
 
-        int sum=0;
+        
         for(Object ob :tokens){
             if (ob instanceof Operand){
                 operands.push((Operand)ob);
@@ -28,6 +28,8 @@ public class ExpressionEvaluation {
                             AdditionExpression addExpr = new AdditionExpression((BinaryOperator)ob , op1, op2);
                             Double addResult = addExpr.eval();
                             operands.push(new Operand(addResult.toString()));
+                            System.out.println("addition");
+
                         case "-":
                             SubtractionExpression subExpr = new SubtractionExpression((BinaryOperator)ob , op1, op2);
                             Double subResult = subExpr.eval();
