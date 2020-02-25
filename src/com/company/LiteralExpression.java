@@ -9,7 +9,7 @@ public class LiteralExpression implements Expression {
     }
 
     @Override
-    public String eval() {
-        return this.result;
+    public Double eval() {
+        return 0.0;
     }
 }

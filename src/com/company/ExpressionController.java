@@ -10,6 +10,9 @@ public class ExpressionController {
         this.tokens = tokens;
     }
 
-        
+    public void init(){
+        ExpressionEvaluation expressionEvaluation = new ExpressionEvaluation(tokens);
+        System.out.println(expressionEvaluation.evaluate());
+    }
 
 }

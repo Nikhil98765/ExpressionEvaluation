@@ -12,6 +12,6 @@ public class AdditionExpression extends BinaryExpression {
     @Override
     public Double eval() {
 
-        return Double.parseDouble(op1.data)+Double.parseDouble(op2.data);
+        return (Double.parseDouble(op1.data)+Double.parseDouble(op2.data));
     }
 }

@@ -60,15 +60,17 @@ public class InfixToPostfix {
                     } else {
                         while (true) {
                             if (stack.peek() instanceof Paranthesis) {
-                                if (((Paranthesis) stack.peek()).data != '(') {
+                                if (!stack.isEmpty()&&((Paranthesis) stack.peek()).data != '(') {
 
-                                    postfixTokens.add(stack.pop());
-
-                                    if (stack.isEmpty())
-                                        break;
+                                    stack.pop();
+                                    break;
                                 }
                                 System.out.println("inside");
+                                break;
 
+                            }
+                            else{
+                                postfixTokens.add(stack.pop());
                             }
 
                         }
@@ -113,6 +115,7 @@ public class InfixToPostfix {
             }
 
             postfixTokens.add(stack.pop());
+            postfixTokens.removeIf(op -> op instanceof Paranthesis);
         }
 
 

@@ -10,7 +10,7 @@ public class IncrementExpression extends UnaryExpression {
     }
 
     @Override
-    public String eval() {
+    public Double eval() {
 
         return null;
     }

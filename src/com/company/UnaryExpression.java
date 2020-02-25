@@ -12,7 +12,7 @@ public class UnaryExpression implements Expression {
     }
 
     @Override
-    public String eval() {
-        return null;
+    public Double eval() {
+        return 0.0;
     }
 }

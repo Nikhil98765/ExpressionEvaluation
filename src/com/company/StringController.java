@@ -35,6 +35,7 @@ public class StringController {
 
         ExpressionController expressionController = new ExpressionController(postfixTokens);
 
+        expressionController.init();
 
 
     }
