@@ -10,6 +10,14 @@ public class Paranthesis {
         this.type = "paranthesis";
     }
 
+    public char getData() {
+        return data;
+    }
+
+    public String getType() {
+        return type;
+    }
+
     @Override
     public String toString() {
         return ""+data + ", " + type;
