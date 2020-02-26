@@ -21,9 +21,9 @@ public class StringController {
 
 
 
-       for(Object ob : ts){
-           System.out.println(ob);
-       }
+//       for(Object ob : ts){
+//           System.out.println(ob);
+//       }
 
 
 

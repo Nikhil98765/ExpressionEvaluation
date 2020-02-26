@@ -16,9 +16,9 @@ public class ExpressionController {
         expValid.validation();
         InfixToPostfix ip = new InfixToPostfix(tokens);
         ArrayList<Object> postfixTokens = ip.convertInfixToPostfix();
-        for(Object ob: postfixTokens){
-            System.out.println(ob);
-        }
+//        for(Object ob: postfixTokens){
+//            System.out.println(ob);
+//        }
         ExpressionEvaluation expressionEvaluation = new ExpressionEvaluation(postfixTokens);
         System.out.println(expressionEvaluation.evaluate());
     }

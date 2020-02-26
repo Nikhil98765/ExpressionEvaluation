@@ -3,54 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="6d680c8f-542d-409c-bdbb-8d01479bb1a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/AdditionExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/BinaryExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/DecrementExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/DivisionExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/Expression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/ExpressionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/ExpressionEvaluation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/ExpressionEvaluationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/ExpressionValidation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/ExpressionValidationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/IncrementExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/InfixToPostfix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/InfixToPostfix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/LiteralExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/MultiplicationExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/MyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/Paranthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/Paranthesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/AdditionExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/AdditionExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/BinaryExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/BinaryExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/DecrementExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/DecrementExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/DivisionExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/DivisionExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/ExpressionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/ExpressionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/ExpressionEvaluation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/ExpressionEvaluation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/IncrementExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/IncrementExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/InfixToPostfix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/InfixToPostfix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/MultiplicationExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/MultiplicationExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/SubtractionExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/SubtractionExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/UnaryExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/UnaryExpression.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/StringController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/StringController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/SubtractionExpression.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/TokenException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/UnaryExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AdditionExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/AdditionExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BinaryExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/BinaryExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BinaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operators/BinaryOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DecrementExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/DecrementExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DivisionExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/DivisionExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ExpressionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/ExpressionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ExpressionEvaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/ExpressionEvaluation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ExpressionEvaluationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/ExpressionEvaluationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ExpressionValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/ExpressionValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ExpressionValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/ExpressionValidationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/IncrementExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/IncrementExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/InfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/InfixToPostfix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/LiteralExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/LiteralExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MultiplicationExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/MultiplicationExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/MyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operators/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Paranthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Paranthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Expressions/ExpressionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/ExpressionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/StringController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/StringController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SubtractionExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/SubtractionExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/TokenException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/UnaryExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/UnaryExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/UnaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operators/UnaryOperator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,22 +120,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582656912547" />
-    <state width="595" height="696" key="GridCell.Tab.0.bottom" timestamp="1582693347962">
+    <state width="595" height="696" key="GridCell.Tab.0.bottom" timestamp="1582695321901">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="595" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582693347962" />
-    <state width="595" height="696" key="GridCell.Tab.0.center" timestamp="1582693347962">
+    <state width="595" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582695321901" />
+    <state width="595" height="696" key="GridCell.Tab.0.center" timestamp="1582695321900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="595" height="696" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582693347962" />
-    <state width="595" height="696" key="GridCell.Tab.0.left" timestamp="1582693347961">
+    <state width="595" height="696" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582695321900" />
+    <state width="595" height="696" key="GridCell.Tab.0.left" timestamp="1582695321900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="595" height="696" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582693347961" />
-    <state width="595" height="696" key="GridCell.Tab.0.right" timestamp="1582693347962">
+    <state width="595" height="696" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582695321900" />
+    <state width="595" height="696" key="GridCell.Tab.0.right" timestamp="1582695321900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="595" height="696" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582693347962" />
+    <state width="595" height="696" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582695321900" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582657086421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

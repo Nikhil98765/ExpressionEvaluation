@@ -3,6 +3,7 @@ package com.company;
 import Exceptions.TokenException;
 import Operands.Operand;
 import Operators.BinaryOperator;
+import Operators.Operator;
 import Operators.UnaryOperator;
 
 import java.util.ArrayList;
@@ -34,7 +35,11 @@ public class Token {
 
         for(int i = 0; i< characters.length; i++){
 
-            if((characters[i] == '.')){
+            if((characters[i] == '-') && (Character.isDigit(characters[i+1])) && (tokens.get(tokens.size()-1) instanceof Operator)){
+                    tokens.add(new Operand(""+characters[i]+characters[i+1]));
+                    i++;
+
+            }else if((characters[i] == '.')){
                 if(count >= 2){
                     throw new TokenException("not valid floating number");
                 }else {
