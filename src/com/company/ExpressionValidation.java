@@ -12,11 +12,22 @@ public class ExpressionValidation {
 
     public void validation(){
 
+        int count = 0;
         if(tokens.get(tokens.size()-1) instanceof BinaryOperator){
             throw new ExpressionValidationException("not a valid expression");
         }
-        int count =0;
-
+        for(Object ob: tokens){
+            if(ob instanceof Paranthesis){
+                if(((Paranthesis) ob).data == '('){
+                    count++;
+                }else{
+                    count--;
+                }
+            }
+        }
+        if(count != 0){
+            throw new ExpressionValidationException("not balanced paranthesis");
+        }
 
 
     }

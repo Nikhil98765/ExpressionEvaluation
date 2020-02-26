@@ -45,18 +45,16 @@ public class InfixToPostfix {
 
         for (Object token : this.tokens) {
             if (token instanceof Operand) {
-                System.out.println("Got an operand");
+
                 postfixTokens.add(token);
             } else if (token instanceof Paranthesis) {
                 if (((Paranthesis) token).data == '(') {
-                    System.out.println("paranthesis");
+
                     stack.push(token);
                 } else if (((Paranthesis) token).data == ')') {
-//
-                    System.out.println("inside paranthesis");
 
                     if (stack.isEmpty()) {
-                        System.out.println("Checkkkk");
+                        throw new ExpressionValidationException("not valid expression");
                     } else {
                         while (true) {
                             if (stack.peek() instanceof Paranthesis) {
@@ -66,7 +64,7 @@ public class InfixToPostfix {
 
                                 } else {
                                     stack.pop();
-                                    System.out.println("inside");
+
                                     break;
 
                                 }

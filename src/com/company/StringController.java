@@ -25,15 +25,12 @@ public class StringController {
            System.out.println(ob);
        }
 
-       InfixToPostfix ip = new InfixToPostfix(ts);
-       ArrayList<Object> postfixTokens = ip.convertInfixToPostfix();
-
-        for(Object ob : postfixTokens){
-            System.out.println(ob);
-        }
 
 
-        ExpressionController expressionController = new ExpressionController(postfixTokens);
+
+
+
+        ExpressionController expressionController = new ExpressionController(ts);
 
         expressionController.init();
 
