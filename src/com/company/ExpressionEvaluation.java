@@ -15,7 +15,7 @@ public class ExpressionEvaluation {
 
     public String evaluate(){
 
-        
+
         for(Object ob :tokens){
             if (ob instanceof Operand){
                 operands.push((Operand)ob);
@@ -27,21 +27,26 @@ public class ExpressionEvaluation {
                         case "+":
                             AdditionExpression addExpr = new AdditionExpression((BinaryOperator)ob , op1, op2);
                             Double addResult = addExpr.eval();
+
                             operands.push(new Operand(addResult.toString()));
-                            System.out.println("addition");
+
+                            break;
 
                         case "-":
                             SubtractionExpression subExpr = new SubtractionExpression((BinaryOperator)ob , op1, op2);
                             Double subResult = subExpr.eval();
                             operands.push(new Operand(subResult.toString()));
+                            break;
                         case "*":
                             MultiplicationExpression multiExpr = new MultiplicationExpression((BinaryOperator)ob, op1, op2);
                             Double mulResult = multiExpr.eval();
                             operands.push(new Operand(mulResult.toString()));
+                            break;
                         case "/":
                             DivisionExpression divExpr = new DivisionExpression((BinaryOperator)ob, op1 , op2);
                             Double divResult = divExpr.eval();
                             operands.push(new Operand(divResult.toString()));
+                            break;
 
                     }
                 }

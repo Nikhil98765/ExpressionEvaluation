@@ -17,16 +17,16 @@ public class InfixToPostfix {
         if (ch instanceof Operator) {
             switch (((Operator) ch).data) {
                 case "+":
+                    return 2;
                 case "-":
                     return 1;
                 case "*":
-                case "/":
-                    return 2;
-                case "^":
                     return 3;
-                case ")":
-                case "(":
+                case "/":
                     return 4;
+                case "^":
+                    return 5;
+
             }
         }
         return -1;
@@ -60,14 +60,16 @@ public class InfixToPostfix {
                     } else {
                         while (true) {
                             if (stack.peek() instanceof Paranthesis) {
-                                if (!stack.isEmpty()&&((Paranthesis) stack.peek()).data != '(') {
+                                if (!stack.isEmpty() && ((Paranthesis) stack.peek()).data != '(') {
 
                                     stack.pop();
-                                    break;
-                                }
-                                System.out.println("inside");
-                                break;
 
+                                } else {
+                                    stack.pop();
+                                    System.out.println("inside");
+                                    break;
+
+                                }
                             }
                             else{
                                 postfixTokens.add(stack.pop());
@@ -85,16 +87,6 @@ public class InfixToPostfix {
                     }
                 }
             }
-//                    while (!stack.isEmpty() && Prec(token) <= Prec(stack.peek())) {
-//                        if (stack.peek() instanceof Paranthesis) {
-//                            if (((Paranthesis) stack.peek()).data == '(')
-//                                throw new ExpressionEvaluationException("invalid expression");
-//                        }
-//                        System.out.println("operator checked");
-//                        postfixTokens.add(stack.pop());
-//
-//                    }
-//                    stack.push(token);
             else // an operator is encountered
             {
                 while (!stack.isEmpty() && Prec(token) <= Prec(stack.peek())) {
