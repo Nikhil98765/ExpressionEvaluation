@@ -31,6 +31,8 @@ public class Token {
 
         FunctionOperator fop = new FunctionOperator();
 
+        Operand op = new Operand();
+
         char[] characters = inputExpression.toCharArray();
 
         String number = "";
@@ -40,7 +42,7 @@ public class Token {
 
         for(int i = 0; i< characters.length; i++){
 
-            if((characters[i] == '-') && ((Character.isDigit(characters[i+1])))){
+            if((characters[i] == '-') && ((Character.isDigit(characters[i+1]))) && ((i == 0) || (characters[i-1] == '('))){
                 negativeNumber += characters[i];
                 for(int j = i+1; j<characters.length;j++){
                     if(Character.isDigit(characters[j])){
@@ -50,17 +52,25 @@ public class Token {
                         break;
                     }
                 }
-                tokens.add(new Operand(negativeNumber));
-                negativeNumber = "";
+
+                    tokens.add(new Operand(negativeNumber));
+                    negativeNumber = "";
+
 
             }else if((characters[i] == '.')){
                 if(count >= 2){
                     throw new TokenException("not valid floating number");
                 }else {
-                    count += 1;
-                    number += characters[i];
+                    if((i+1 < characters.length) && (Character.isDigit(characters[i+1]) )){
+
+                        count += 1;
+                        number += characters[i];
+                }else {
+                        throw new TokenException("not valid operand");
+                    }
                 }
-            }else if((Character.isDigit(characters[i]))){
+            }
+            else if((Character.isDigit(characters[i]))){
                 number += characters[i];
                 if((i+1<inputExpression.length()) && ((Character.isDigit(characters[i+1]))||(characters[i+1] == '.')) ){
                     continue;
@@ -68,8 +78,11 @@ public class Token {
                     if(number.charAt(number.length()-1) == '.'){
                         throw new TokenException("not a valid operand");
                     }else{
-                    tokens.add(new Operand(number));
-                    number = "";
+
+                        tokens.add(new Operand(number));
+                        number = "";
+
+
                     }
                 }
 

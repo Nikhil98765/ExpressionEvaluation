@@ -10,6 +10,9 @@ public class Operand {
         this.data = data;
     }
 
+    public Operand() {
+    }
+
     public String getType() {
         return type;
     }
@@ -17,6 +20,7 @@ public class Operand {
     public String getData() {
         return data;
     }
+
 
     @Override
     public String toString() {
