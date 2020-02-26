@@ -35,9 +35,10 @@ public class Token {
 
         for(int i = 0; i< characters.length; i++){
 
-            if((characters[i] == '-') && (Character.isDigit(characters[i+1])) && (tokens.get(tokens.size()-1) instanceof Operator)){
+            if((characters[i] == '-') && (Character.isDigit(characters[i+1])) && ((tokens.get(tokens.size()-1) instanceof Operator) || (tokens.get(tokens.size()-1) == null))){
                     tokens.add(new Operand(""+characters[i]+characters[i+1]));
                     i++;
+                    continue;
 
             }else if((characters[i] == '.')){
                 if(count >= 2){

@@ -2,6 +2,7 @@ package Expressions;
 
 import Operators.BinaryOperator;
 import Exceptions.ExpressionValidationException;
+import Operators.Operator;
 import com.company.Paranthesis;
 
 import java.util.ArrayList;
@@ -26,6 +27,11 @@ public class ExpressionValidation {
                     count++;
                 }else{
                     count--;
+                }
+            }
+            if(ob instanceof Operator){
+                if((tokens.get(tokens.indexOf(ob)-1) instanceof Operator) && (tokens.get(tokens.indexOf(ob)+1) instanceof Operator)){
+                    throw new ExpressionValidationException("not valid expression");
                 }
             }
         }

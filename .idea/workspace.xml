@@ -3,21 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6d680c8f-542d-409c-bdbb-8d01479bb1a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/AdditionExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/AdditionExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/BinaryExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/BinaryExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/DecrementExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/DecrementExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/DivisionExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/DivisionExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/ExpressionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/ExpressionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/ExpressionEvaluation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/ExpressionEvaluation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/IncrementExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/IncrementExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/InfixToPostfix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/InfixToPostfix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/MultiplicationExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/MultiplicationExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/SubtractionExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/SubtractionExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/UnaryExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/UnaryExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/StringController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/StringController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/ExpressionValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/Expressions/ExpressionValidation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressionEvaluation/com/company/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expressions/ExpressionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/ExpressionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/StringController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/StringController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Expressions/ExpressionValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressions/ExpressionValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Token.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,38 +108,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582656912547" />
-    <state width="595" height="696" key="GridCell.Tab.0.bottom" timestamp="1582695321901">
+    <state width="595" height="696" key="GridCell.Tab.0.bottom" timestamp="1582696651475">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="595" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582695321901" />
-    <state width="595" height="696" key="GridCell.Tab.0.center" timestamp="1582695321900">
+    <state width="595" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582696651475" />
+    <state width="595" height="696" key="GridCell.Tab.0.center" timestamp="1582696651475">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="595" height="696" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582695321900" />
-    <state width="595" height="696" key="GridCell.Tab.0.left" timestamp="1582695321900">
+    <state width="595" height="696" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582696651475" />
+    <state width="595" height="696" key="GridCell.Tab.0.left" timestamp="1582696651475">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="595" height="696" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582695321900" />
-    <state width="595" height="696" key="GridCell.Tab.0.right" timestamp="1582695321900">
+    <state width="595" height="696" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582696651475" />
+    <state width="595" height="696" key="GridCell.Tab.0.right" timestamp="1582696651475">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="595" height="696" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582695321900" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582657086421">
+    <state width="595" height="696" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582696651475" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582696461100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582657086421" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582657086416">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582696461100" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582696461099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582657086416" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582657086416">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582696461099" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582696461099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582657086416" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582657086416">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582696461099" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582696461100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582657086416" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582696461100" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1582657154263">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
