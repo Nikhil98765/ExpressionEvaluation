@@ -2,6 +2,7 @@ package Expressions;
 
 import Operators.BinaryOperator;
 import Operands.Operand;
+import Operators.FunctionOperator;
 import Operators.Operator;
 
 import java.util.ArrayList;
@@ -53,6 +54,18 @@ public class ExpressionEvaluation {
                             operands.push(new Operand(divResult.toString()));
                             break;
 
+                    }
+                }else if(((Operator) ob).type == "FunctionOperator"){
+                    Operand op3 = operands.pop();
+
+                    switch (((Operator) ob).data){
+                        case "sin":
+                        case "tan":
+                        case "cos":
+                            FunctionExpressions sinExpr = new FunctionExpressions((FunctionOperator)ob,op3);
+                            Double result = sinExpr.eval();
+                            operands.push(new Operand(result.toString()));
+                            break;
                     }
                 }
             }

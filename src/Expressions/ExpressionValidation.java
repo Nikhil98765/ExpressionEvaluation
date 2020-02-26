@@ -29,8 +29,8 @@ public class ExpressionValidation {
                     count--;
                 }
             }
-            if(ob instanceof Operator){
-                if((tokens.get(tokens.indexOf(ob)-1) instanceof Operator) && (tokens.get(tokens.indexOf(ob)+1) instanceof Operator)){
+            if(ob instanceof BinaryOperator){
+                if((tokens.get(tokens.indexOf(ob)+1) instanceof BinaryOperator)){
                     throw new ExpressionValidationException("not valid expression");
                 }
             }

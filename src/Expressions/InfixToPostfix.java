@@ -29,6 +29,9 @@ public class InfixToPostfix {
                 case "/":
                     return 4;
                 case "^":
+                case "sin":
+                case "cos":
+                case "tan":
                     return 5;
 
             }

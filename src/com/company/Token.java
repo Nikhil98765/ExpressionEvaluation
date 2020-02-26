@@ -3,6 +3,7 @@ package com.company;
 import Exceptions.TokenException;
 import Operands.Operand;
 import Operators.BinaryOperator;
+import Operators.FunctionOperator;
 import Operators.Operator;
 import Operators.UnaryOperator;
 
@@ -28,17 +29,29 @@ public class Token {
 
         BinaryOperator bop = new BinaryOperator();
 
+        FunctionOperator fop = new FunctionOperator();
+
         char[] characters = inputExpression.toCharArray();
 
         String number = "";
+        String function;
         int count = 0;
+        String negativeNumber = "";
 
         for(int i = 0; i< characters.length; i++){
 
-            if((characters[i] == '-') && (Character.isDigit(characters[i+1])) && ((tokens.get(tokens.size()-1) instanceof Operator) || (tokens.get(tokens.size()-1) == null))){
-                    tokens.add(new Operand(""+characters[i]+characters[i+1]));
-                    i++;
-                    continue;
+            if((characters[i] == '-') && ((Character.isDigit(characters[i+1])))){
+                negativeNumber += characters[i];
+                for(int j = i+1; j<characters.length;j++){
+                    if(Character.isDigit(characters[j])){
+                        negativeNumber += characters[j];
+                        i++;
+                    }else{
+                        break;
+                    }
+                }
+                tokens.add(new Operand(negativeNumber));
+                negativeNumber = "";
 
             }else if((characters[i] == '.')){
                 if(count >= 2){
@@ -64,6 +77,23 @@ public class Token {
             else if(bop.isBinaryOperator(characters[i])){
                 tokens.add(new BinaryOperator(Character.toString(characters[i])));
 
+            }else if (Character.isLetter(characters[i])) {
+
+                function = "";
+
+                while (i < characters.length && Character.isLetter(characters[i])) {
+                    function += characters[i];
+
+                    i++;
+                }
+
+                if(fop.isFunctionOperator(function)) {
+                    tokens.add(new FunctionOperator(function));
+
+                }else{
+                    throw new TokenException("not valid token");
+                }
+                i--;
             }else if(characters[i] == '(' || characters[i] == ')'){
                 tokens.add(new Paranthesis(characters[i]));
             }
